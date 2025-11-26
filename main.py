@@ -90,5 +90,5 @@ if __name__ == "__main__":
 
     util.limpiar_pantalla()
     util.guiones()
-    print("Saliendo del programa...\nGracias por usar ERP - Pandilla de Duendes!")
+    print("Saliendo del programa...\nGracias por usar ERP  - Pandilla de Duendes!")
     util.guiones()

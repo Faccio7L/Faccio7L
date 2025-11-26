@@ -336,4 +336,4 @@ def mostrar_proveedores(datos_proveedores: dict)->None:
         titulo = f"Proveedores de {a_mostrar}" if a_mostrar != "no info" else "Proveedores de otras marcas"
         util.imprimir_tabla_x_paginas(headers, proveedores_marca, titulo)
         
-        input("Presione Enter para continuar...")
+        input("Presione Enter para continuar..." )

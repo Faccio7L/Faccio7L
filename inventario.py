@@ -567,7 +567,7 @@ def alerta_stock_bajo(datos_inventario: dict)->None:
                 ):
                     print(f"{enumerador}.{producto['nombre'].title()}")
                     enumerador += 1
-                    encontrados = True
+                    encontrados =  True
             if encontrados:
                 input("enter para continuar...")
             else:

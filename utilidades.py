@@ -201,9 +201,9 @@ def pedir_float(nombre: str, max: int=1000000.0, min: int=1.0) -> float:
             continue
         else:
             return flotante
-def pedir_str(titulo:str)->None:
+def pedir_str(titulo:str)->None :
     """
-    Se solicita un string y se valida que no sea vacio.
+    Se solicita un string y se valida que no sea vacio. 
     """
     while True:
         string= input(f"Ingrese un {titulo}: ").strip().lower()

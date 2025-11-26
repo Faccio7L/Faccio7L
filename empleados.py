@@ -263,7 +263,7 @@ def mostrar_empleados(datos_empleados: dict)->None:
     """
     while True:
         util.limpiar_pantalla()
-        util.imprimir_titulo("mostrar empleados")
+        util.imprimir_titulo("mostrar empleados ")
         if not datos_empleados.get("empleados"):
             print("No hay empleados registrados.")
             input("Presione Enter para volver...")

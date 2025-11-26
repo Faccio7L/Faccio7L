@@ -162,7 +162,7 @@ def _seleccionar_producto_en_venta(items_venta: dict[str, dict]) -> str | None:
     )
     if seleccionado is None:
         return None
-    return seleccionado["id"]
+    return seleccionado["id" ]
 
 
 def _agregar_producto_a_venta(

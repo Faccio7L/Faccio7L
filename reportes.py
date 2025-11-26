@@ -535,4 +535,4 @@ def reporte_sueldos(datos_empleados: dict)->None:
         print(f"El sueldo promedio es de: ${promedio}")
     else:
         print("No hay empleados registrados.")
-    input("Enter para continuar...")
+    input("Enter para continuar..." )
